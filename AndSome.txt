@@ -1,0 +1,9 @@
+ - MaterialPropertyBlock 클래스
+    기존에 메테리얼의 프로퍼티 값을 설정하려면, MeshRenderer.material로 접근해야함
+    기존방법으로 접근하면 기존의 메테리얼의 복제품을 생성하게됨, 양이 많아지면 각각의 복제품을 생성하게됨
+    작업량과 Batches의 값이 늘어남
+    MaterialPropertyBlock을 사용하면 복제품을 생성하지 않고 메테리얼의 값을 변경 할수 있음
+    Property로 변경하면 SetPropertyBlock메서드를 통해 변경한 오브젝트의 값만 변경됨
+ - const string 변수의 Replace(String oldValue, String newValue)
+    oldValue : 변수에서 찾아 제거할 문자열
+    newValue : 제거한 문자열의 위치에 변경할 문자열

@@ -1,0 +1,21 @@
+On-Screen-Conroller
+- 스크린 컨트롤러로 사용할 이미지, 버튼에 On-Screen Button, Stick을 추가
+    Input Action에 지정한 버튼, 스틱이 추가되있어야 작동이 됨
+    Button으로 사용시 Control Path에 지정할 버튼을 설정
+    Stick으로 사용시 ControlPath에 지정할 스틱을 설정
+    Movement Range 이동 범위를 설정(크다고 더 빨리 움직이고 그러지는 않음)
+    Behaviour를 설정
+       - Relative Position With Static Origin : 특정 위치에 고정되고, 이미지의 범위에서만 인식
+         을 하여 이동이 가능
+       - Exact Position With Static Origin : Relative와 거의 동일, MoveMent Range의 중앙 지점
+         부터 클릭 지점사이의
+         값을 확인하여 차이만큼 바로 값이 변경됨
+       - Exact Position With Dynamic Origin : Movement Range 범위에서 클릭시 그 위치가 
+         Movement Range 중앙 지	점 으로 변경
+	- Dynamic Origin Range : ??????, 메뉴얼에 설명 없음
+              Use Isolated Input Actons : 독립적인 입력 작업 사용
+	스틱을 드래그하게 되면 페어링된 장치가 포인터를 소유한 장치(마우스, 터치, 펜)와
+           제어 경로의 장치(스틱 등)
+	등 번갈아 가면 움직이게 되면서 장치가 불안정하게 움직임이 발생함
+	기능을 키면 포인터와 제어 경로의 장치들 사이를 번갈아 가지않고 제어 경로로만 움
+           직이게됨

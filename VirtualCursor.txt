@@ -1,0 +1,11 @@
+게임페드 가상 마우스
+- 캔버스에 마우스로 사양할 이미지를 생성
+   Packages/InputSystem/VirtualMouse 스크립트를 붙임
+   유니티에서 제공하는 가상 마우스 컨트롤 스크립트
+
+- Cursor Mode
+    Software Cursor : 커서를 UI요소로 표시, Cursor Graphic을 참조함
+    Hardware Cursor If Available : 월드 스페이스 공간에서 움직임, 기본 마우스가 없으면 Software Cursor로 변경
+
+- Stick Action : 각 마우스 버튼에 해당하는 액션과 동일한 행동을할 키 설정
+    Forward(Button_5), Back(Button_6)은 마우스 왼쪽에 있는 버튼
